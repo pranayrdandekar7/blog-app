@@ -5,7 +5,7 @@ import BlogCard from "../../components/BlogCard/BlogCard";
 function Home() {
   return (
     <>
-    <h1 className="heading">Recipe Blog</h1>
+    <h1 className="heading">Recipe Blogs</h1>
     <div className="blog-card-conatiner">
       {blogs.map((blogObject, i) => {
         const {
